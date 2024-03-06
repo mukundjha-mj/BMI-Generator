@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Madimi One", sans-serif;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b5e1f8;
+  height: 100vh;
+}
+
+.container {
+  border: 18px solid #424f96;
+  width: 600px;
+  height: 600px;
+  border-radius: 8%;
+  text-align: center;
+  /* padding-left: 30px; */
+  /* padding: 20px; */
+}
+
+h1{
+  margin-top: 25px;
+  font-size: 3.8rem;
+  font-weight: 500;
+  color: #424f96;
+  line-height: 50px;
+}
+
+form{
+  /* margin-top: 50px; */
+  line-height: 20px;
+
+}
+#height,
+#weight {
+  width: 280px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 5px;
+  font-size: .8rem;
+  font-weight: 500;
+  color: #424f96;
+  margin-top: 30px;
+}
+
+#result{
+    font-size: 35px;
+    margin-top: 35px;
+    color: #424f96;
+}
+
+button{
+  width: 150px;
+  height: 35px;
+  margin-top: 25px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#weight-guide{
+  font-size: 25px;
+  margin-top: 45px;
+  line-height: 40px;
+}
